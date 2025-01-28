@@ -1,22 +1,22 @@
-# '''  Accessing Variable  '''
+'''  Accessing Variable  '''
 
-# class A:
-#     def __init__(self):
-#         self.x=100
+class A:
+    def __init__(self):
+        self.x=100
     
-#     def test(self):
-#         print(self.x)
+    def test(self):
+        print(self.x)
     
-# class B(A):
-#     def test1(self):
-#         print(self.x)
+class B(A):
+    def test1(self):
+        print(self.x)
 
-# a=A()
-# a.test()
-# b=B()
-# b.test1()
-# a=A()
-# print(a.x)
+a=A()
+a.test()
+b=B()
+b.test1()
+a=A()
+print(a.x)
 
 
 '''  Accessing Methods  '''
